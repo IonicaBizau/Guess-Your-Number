@@ -13,8 +13,8 @@ The minimum number of questions for the correct answer.
 
 View the live preview of Javascript version (which has few bugs because it's only a preview: after downloading this, they are fixed.):
 
- - [English version](https://raw.github.com/IonicaBizau/guess-your-number/master/Javascript/en.html)
- - [Romanian version](https://raw.github.com/IonicaBizau/guess-your-number/master/Javascript/ro.html)
+ - [English version](http://htmlpreview.github.com/?https://raw.github.com/IonicaBizau/guess-your-number/master/Javascript/en.html)
+ - [Romanian version](http://htmlpreview.github.com/?https://raw.github.com/IonicaBizau/guess-your-number/master/Javascript/ro.html)
 
 The basic functionality is this:
 
