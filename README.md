@@ -1,4 +1,4 @@
-guess-your-number
+Guess Your Number
 =================
 
 Divide et Impera method for quessing a number you choose in an interval.
