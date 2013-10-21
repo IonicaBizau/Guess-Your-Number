@@ -1,8 +1,8 @@
 Guess Your Number
 =================
 
-Divide et Impera method for quessing a number you choose in an interval.
-The minimum number of questions for the correct answer.
+Divide et Impera method for guessing a number you choose from an interval.
+You must answer to a minimum number of questions.
 
 ## The steps
 1. Choose the limits of your number: limMin and limMax.
@@ -46,6 +46,7 @@ function think() {
 ```
 
 ## Copyright
+
     Copyright (C)  2012  Ionica Bizau.
     Permission is granted to copy, distribute and/or modify this document
     under the terms of the GNU Free Documentation License, Version 1.3
