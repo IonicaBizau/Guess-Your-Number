@@ -3,7 +3,9 @@
         <title>I guess your number</title>
         <script src="js/jquery-1.9.1.min.js"></script>
         <script src="js/controler.js"></script>
-        <link href="css/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+        <script src="css/bs/js/bootstrap.min.js"></script>
+        <script src="css/md/js/material.min.js"></script>
+        <script src="css/md/js/ripples.min.js"></script>
         <link href="css/style.css" rel="stylesheet" type="text/css">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     </head>
@@ -13,42 +15,62 @@
             <div class="page page-indigo page-active">
                 <h3>Divide et Impera method</h3>
                 <h4>I guess a number you choose asking you a minimum number of questions.</h4>
-                <button type="button" class="btn btn-primary button-next">Start <i class="icon-arrow-right icon-white"></i></button> 
+                <button type="button" class="btn btn-primary button-next">Start <i class="icon-arrow-right icon-white"></i></button>
             </div>
 
             <div class="page page-blue">
                 <h3>Set the limits:</h3>
                 <h4>I have to know the interval where is your number.</h4>
-                <span>Maximum limit: </span>
-                <input type="text" value="0" id="lim-min"/><br/>
-                <span>Minimum limit:</span>
-                <input type="text" value="100" id="lim-max"/><br/>
-                
-                <button id="set-limits-btn" type="button" class="btn btn-primary button-next">OK <i class="icon-arrow-right icon-white"></i></button> 
+
+                <div class="form-horizontal">
+                    <div class="form-group">
+                        <label for="lim-min" class="col-lg-2 control-label">Min Limit</label>
+                        <div class="col-lg-2">
+                            <div class="form-control-wrapper">
+                                <input type="text" class="form-control empty" id="lim-min" value="0">
+                                <span class="material-input"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="lim-max" class="col-lg-2 control-label">Max Limit</label>
+                        <div class="col-lg-2">
+                            <div class="form-control-wrapper">
+                                <input type="text" class="form-control empty" id="lim-max" value="100">
+                                <span class="material-input"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-4 col-lg-offset-2">
+                            <button id="set-limits-btn" class="btn btn-primary button-next">OK! <i class="mdi-navigation-check"></i></button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            
+
             <div class="page page-red">
                 <h3>I will ask you at most <span id="questions-nr"></span> questions.</h3>
                 <h4>Choose a number.</h4>
-                       
-                <button type="button" id="start" class="btn btn-danger button-next">I chose. <i class="icon-arrow-right icon-white"></i></button> 
+
+                <button type="button" id="start" class="btn btn-danger button-next">I chose. <i class="icon-arrow-right icon-white"></i></button>
             </div>
-            
+
             <div class="page page-blue">
                 <h3><span id="questionCounter"></span> <span id="result"></span></h3>
                 <input type="button" id="yes" class="btn btn-success" value="YES"></input>
                 <input type="button" id="no" class="btn btn-danger" value="NO"></input>
                 <br />
-                               
+
                 <div id="intervalContainer">
                     <div id="interval"></div>
                 </div>
-                
+
                 <div class="progress progress-striped active">
                     <div id="progress" class="bar">
                     </div>
                 </div>
-                
+
                 <button type="button" id="reset" class="btn btn-primary btn-url" data-url="en.html">Do you want again?</button>
             </div>
         </div>

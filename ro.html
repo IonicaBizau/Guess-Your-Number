@@ -3,7 +3,9 @@
         <title>Îți ghicesc numărul la care te gândești</title>
         <script src="js/jquery-1.9.1.min.js"></script>
         <script src="js/controler.js"></script>
-        <link href="css/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+        <script src="css/bs/js/bootstrap.min.js"></script>
+        <script src="css/md/js/material.min.js"></script>
+        <script src="css/md/js/ripples.min.js"></script>
         <link href="css/style.css" rel="stylesheet" type="text/css">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     </head>
@@ -13,7 +15,7 @@
             <div class="page page-indigo page-active">
                 <h3>Principiul Divide et Impera</h3>
                 <h4>Iți ghicesc un număr la care te-ai gândit printr-un număr minim de întrebări.</h4>
-                <button type="button" class="btn btn-primary button-next">Start <i class="icon-arrow-right icon-white"></i></button> 
+                <button type="button" class="btn btn-primary button-next">Start <i class="icon-arrow-right icon-white"></i></button>
             </div>
 
             <div class="page page-blue">
@@ -23,27 +25,27 @@
                 <input type="text" value="0" id="lim-min"/><br/>
                 <span>Limita maximă:</span>
                 <input type="text" value="100" id="lim-max"/><br/>
-                
-                <button id="set-limits-btn" type="button" class="btn btn-primary button-next">OK <i class="icon-arrow-right icon-white"></i></button> 
+
+                <button id="set-limits-btn" type="button" class="btn btn-primary button-next">OK <i class="icon-arrow-right icon-white"></i></button>
             </div>
-            
+
             <div class="page page-red">
                 <h3>Maxim <span id="questions-nr"></span> întrebări îți voi pune.</h3>
                 <h4>Gândește-te la un număr.</h4>
-                       
-                <button type="button" id="start" class="btn btn-danger button-next">M-am gândit <i class="icon-arrow-right icon-white"></i></button> 
+
+                <button type="button" id="start" class="btn btn-danger button-next">M-am gândit <i class="icon-arrow-right icon-white"></i></button>
             </div>
-            
+
             <div class="page page-blue">
                 <h3><span id="questionCounter"></span> <span id="result"></span></h3>
                 <input type="button" id="yes" class="btn btn-success" value="DA"></input>
                 <input type="button" id="no" class="btn btn-danger" value="NU"></input>
                 <br />
-                               
+
                 <div id="intervalContainer">
                     <div id="interval"></div>
                 </div>
-                
+
                 <div class="progress progress-striped active">
                     <div id="progress" class="bar">
                     </div>

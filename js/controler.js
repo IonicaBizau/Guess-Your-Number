@@ -17,9 +17,9 @@ var language = "";
 
 $(document).ready(function() {
     language = $("#language").text();
-    
+
     $("body").hide().fadeIn(1000);
-    
+
     $(".btn-url").on("click", function() {
         var btn = $(this);
 
@@ -28,7 +28,7 @@ $(document).ready(function() {
             window.location = btn.attr("data-url");
         });
     });
-    
+
     $(".page").animate({"margin-top":"10px"});
 
     $(".button-next").on("click", function() {
@@ -59,13 +59,13 @@ $(document).ready(function() {
     });
 });
 
-function think() {    
+function think() {
     if(i == j + 1 || i == j) {
         $("#questionCounter").text("");
-        
+
         $("#progress").css("width", "100%");
         $("#progress").text("100%");
-        
+
         $("#result").text(messages[language].finalRes + i);
 
         $("#yes").fadeOut();
@@ -74,26 +74,26 @@ function think() {
         $("#reset").fadeIn();
         return;
     }
-    mij = Math.floor((i + j) / 2);  
-    
+    mij = Math.floor((i + j) / 2);
+
     var width = (100 * (j - i)) / (limMax - limMin);
     var left = (100 * i) / (limMax - limMin) - (limMin * 100) / (limMax - limMin);
     var prg = 100 * questionId / questionsNr;
-    
+
     questionId++;
-    
+
     $("#questionCounter").text(questionId + ".");
-    
+
     $("#progress").css("width", prg + "%");
     $("#progress").text(Math.floor(prg) + " %");
-    
+
     $("#interval").animate({"margin-left": left + "%", "width" : width + "%"});
     $("#result").text(messages[language].question + mij + "?");
 }
 
 function goToNextPage(evt) {
-    var parent = evt.parent();
-    
+    var parent = evt.closest(".page");
+
     parent.fadeOut(function() {
         parent.removeClass("page-active");
     });

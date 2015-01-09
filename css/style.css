@@ -1,5 +1,9 @@
 /* general */
 
+@import url("bs/css/bootstrap.min.css");
+@import url("md/css/material.min.css");
+@import url("md/css/ripples.min.css");
+
 img {
     margin: 0 auto;
     width: 300px;
@@ -7,12 +11,10 @@ img {
 
 body {
     overflow: hidden;
-    background-color: #ecf0f1;
 }
 
 #container {
     margin: 10px;
-    text-align: center;
 }
 
 #question {
@@ -45,6 +47,7 @@ body {
     margin-top: -200px;
     border-radius: 2px;
     box-shadow: 0 0 16px rgba(0, 0, 0, 0.44);
+    width: 80%;
 }
 
 .page-active {
