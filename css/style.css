@@ -7,6 +7,7 @@ img {
 
 body {
     overflow: hidden;
+    background-color: #ecf0f1;
 }
 
 #container {
@@ -32,7 +33,7 @@ body {
 
 .page {
     padding: 10px;
-    border: 1px solid black;
+    border: 1px solid;
     color: white;
     width: 400px;
     position: absolute;
@@ -42,6 +43,8 @@ body {
     right: 0;
     display: none;
     margin-top: -200px;
+    border-radius: 2px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.44);
 }
 
 .page-active {
@@ -49,17 +52,19 @@ body {
 }
 
 .page-home {
-    
+
 }
 
 /* page colors */
 
 .page-indigo {
-    background: indigo;
+    background: #9b59b6;
+    border-color: #8e44ad;
 }
 
 .page-blue {
-    background: #00188F;
+    background: #3498db;
+    border-color: #2980b9;
 }
 
 .page-green {
@@ -67,7 +72,8 @@ body {
 }
 
 .page-red {
-    background: #E23300;
+    background: #e74c3c;
+    border-color: #c0392b;
 }
 
 .page-home {
@@ -84,21 +90,23 @@ body {
 /* question page */
 
 #intervalContainer {
-    border: 1px solid black;
+    border: 1px solid #2980b9;
     background: white;
     height: 20px;
     margin-top: 10px;
+    border-radius: 4px;
 }
 
 #interval {
-    height: 18px;
-    background: lightblue;
-    border: 1px solid #aaa;
+    height: 20px;
+    background: #2ecc71;
     width: auto;
+    border-radius: 3px;
 }
 
 .progress {
     margin-top: 20px;
+    border: 1px solid #2980b9;
 }
 
 #reset {
