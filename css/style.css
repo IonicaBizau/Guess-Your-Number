@@ -1,4 +1,5 @@
 /* general */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800);
 
 img {
     margin: 0 auto;
@@ -8,6 +9,7 @@ img {
 body {
     overflow: hidden;
     background-color: #ecf0f1;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #container {
