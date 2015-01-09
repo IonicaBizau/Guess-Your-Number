@@ -1,17 +1,15 @@
 Guess Your Number
 =================
-
 Divide et Impera method for guessing a number you choose from an interval.
-You must answer to a minimum number of questions.
+You will answer to a minimum number of questions.
 
 ## The steps
-1. Choose the limits of your number: limMin and limMax.
-2. Choose your number.
+1. Choose the limits of your number: **limMin** (e.g. `10`) and **limMax** (e.g. `50`).
+2. Choose your number (e.g. `42`).
 3. Give the correct answers, and the application will guess your number.
 
 ## Javascript
-
-View the live preview of Javascript version (which has few bugs because it's only a preview: after downloading this, they are fixed.):
+View the live preview of Javascript version ():
 
  - [English version](http://htmlpreview.github.com/?https://raw.github.com/IonicaBizau/guess-your-number/master/Javascript/en.html)
  - [Romanian version](http://htmlpreview.github.com/?https://raw.github.com/IonicaBizau/guess-your-number/master/Javascript/ro.html)
