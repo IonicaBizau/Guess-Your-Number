@@ -11,8 +11,8 @@ You will answer to a minimum number of questions.
 ## Javascript
 View the live preview of Javascript version ():
 
- - [English version](http://htmlpreview.github.com/?https://raw.github.com/IonicaBizau/guess-your-number/master/Javascript/en.html)
- - [Romanian version](http://htmlpreview.github.com/?https://raw.github.com/IonicaBizau/guess-your-number/master/Javascript/ro.html)
+ - [English version](http://ionicabizau.github.io/Guess-Your-Number/en.html)
+ - [Romanian version](http://ionicabizau.github.io/Guess-Your-Number/ro.html)
 
 The basic functionality is this:
 
