@@ -29,7 +29,7 @@ $(document).ready(function() {
         });
     });
 
-    $(".page").animate({"margin-top":"10px"});
+    $(".page").animate({"margin-top":"30px"});
 
     $(".button-next").on("click", function() {
         goToNextPage($(this));
