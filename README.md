@@ -8,8 +8,9 @@ You will answer to a minimum number of questions.
 2. Choose your number (e.g. `42`).
 3. Give the correct answers, and the application will guess your number.
 
-## Javascript
-View the live preview of Javascript version ():
+## Demo
+
+[Click here for the online demo](http://ionicabizau.github.io/Guess-Your-Number/).
 
  - [English version](http://ionicabizau.github.io/Guess-Your-Number/en.html)
  - [Romanian version](http://ionicabizau.github.io/Guess-Your-Number/ro.html)
