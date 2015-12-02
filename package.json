@@ -1,0 +1,86 @@
+{
+  "name": "web-guess-your-number",
+  "version": "1.0.0",
+  "description": "Divide et Impera method for guessing a number you choose from an interval. You will answer to a minimum number of questions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IonicaBizau/Guess-Your-Number.git"
+  },
+  "keywords": [
+    "guess",
+    "number",
+    "divide",
+    "impera"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/Guess-Your-Number/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/Guess-Your-Number#readme",
+  "blah": {
+    "description": [
+      { "p": "You will answer to a minimum number of questions." },
+      {
+        "h2": "The steps"
+      },
+      {
+        "ol": [
+          "Choose the limits of your number: **limMin** (e.g. `10`) and **limMax** (e.g. `50`).",
+          "Choose your number (e.g. `42`).",
+          "Give the correct answers, and the application will guess your number."
+        ]
+      },
+      {
+        "h2": "Demo"
+      },
+      {
+        "p": "[Click here for the online demo](http://ionicabizau.github.io/Guess-Your-Number/)."
+      },
+      {
+        "ul": [
+          "[English version](http://ionicabizau.github.io/Guess-Your-Number/en.html)",
+          "[Romanian version](http://ionicabizau.github.io/Guess-Your-Number/ro.html)"
+        ]
+      },
+      {
+        "p": "The basic functionality is this:"
+      },
+      {
+        "code": {
+          "language": "js",
+          "content": [
+            "var i, j, mij;",
+            "",
+            "// Yes, it's greather than mij",
+            "  i = mij + 1;",
+            "  j = j;",
+            "  think();",
+            "",
+            "// No, it isn't greather than mij",
+            "  i = i;",
+            "  j = mij;",
+            "  think();",
+            "",
+            "",
+            "// think function",
+            "function think() {",
+            "    if(i == j + 1 || i == j) {",
+            "        console.log(\"The number is: \" + i);",
+            "        return;",
+            "    }",
+            "",
+            "    mij = Math.floor((i + j) / 2);",
+            "",
+            "    // Ask again: is it greather than mij?",
+            "}"
+          ]
+        }
+      }
+    ]
+  }
+}
