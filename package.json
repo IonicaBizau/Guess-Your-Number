@@ -24,7 +24,9 @@
   "homepage": "https://github.com/IonicaBizau/Guess-Your-Number#readme",
   "blah": {
     "description": [
-      { "p": "You will answer to a minimum number of questions." },
+      {
+        "p": "You will answer to a minimum number of questions."
+      },
       {
         "h2": "The steps"
       },
