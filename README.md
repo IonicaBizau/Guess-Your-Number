@@ -1,6 +1,8 @@
+
 # web-guess-your-number [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/web-guess-your-number.svg)](https://www.npmjs.com/package/web-guess-your-number) [![Downloads](https://img.shields.io/npm/dt/web-guess-your-number.svg)](https://www.npmjs.com/package/web-guess-your-number) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Divide et Impera method for guessing a number you choose from an interval. You will answer to a minimum number of questions.
+
 
 You will answer to a minimum number of questions.
 
@@ -14,8 +16,10 @@ You will answer to a minimum number of questions.
 
 [Click here for the online demo](http://ionicabizau.github.io/Guess-Your-Number/).
 
+
  - [English version](http://ionicabizau.github.io/Guess-Your-Number/en.html)
  - [Romanian version](http://ionicabizau.github.io/Guess-Your-Number/ro.html)
+
 
 The basic functionality is this:
 
@@ -32,6 +36,7 @@ var i, j, mij;
   j = mij;
   think();
 
+
 // think function
 function think() {
     if(i == j + 1 || i == j) {
@@ -45,10 +50,11 @@ function think() {
 }
 ```
 
-## How to contribute
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## License
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
