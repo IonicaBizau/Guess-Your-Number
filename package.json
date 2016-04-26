@@ -1,8 +1,8 @@
 {
   "name": "web-guess-your-number",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Divide et Impera method for guessing a number you choose from an interval. You will answer to a minimum number of questions.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -84,5 +84,16 @@
         }
       }
     ]
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
