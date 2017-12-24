@@ -12,11 +12,13 @@ You will answer to a minimum number of questions.
 
 ## The steps
 
+
  1. Choose the limits of your number: **limMin** (e.g. `10`) and **limMax** (e.g. `50`).
  2. Choose your number (e.g. `42`).
  3. Give the correct answers, and the application will guess your number.
 
 ## Demo
+
 
 [Click here for the online demo](http://ionicabizau.github.io/Guess-Your-Number/).
 
@@ -53,6 +55,7 @@ function think() {
     // Ask again: is it greather than mij?
 }
 ```
+
 
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
