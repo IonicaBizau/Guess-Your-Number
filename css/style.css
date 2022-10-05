@@ -63,20 +63,24 @@ body {
 .page-indigo {
     background: #9b59b6;
     border-color: #8e44ad;
+    border-radius: 12px 0px;
 }
 
 .page-blue {
     background: #3498db;
     border-color: #2980b9;
+    border-radius: 0px 12px;
 }
 
 .page-green {
     background: #118B04;
+    border-radius: 12px 0px;
 }
 
 .page-red {
     background: #e74c3c;
     border-color: #c0392b;
+    border-radius: 0px 12px;
 }
 
 .page-home {
