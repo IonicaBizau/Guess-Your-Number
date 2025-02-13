@@ -1,6 +1,6 @@
 {
   "name": "web-guess-your-number",
-  "version": "1.1.11",
+  "version": "1.1.12",
   "description": "Divide et Impera method for guessing a number you choose from an interval. You will answer to a minimum number of questions.",
   "main": "lib/index.js",
   "scripts": {
@@ -96,6 +96,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
